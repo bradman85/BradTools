@@ -1,0 +1,10 @@
+
+C:\Users\bradm\StlCleanerWinForms>dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true -o ./publish
+Restore complete (0.4s)
+  StlCleanerWinForms net10.0-windows win-x64 failed with 1 error(s) and 1 warning(s) (0.4s)
+    C:\Users\bradm\StlCleanerWinForms\MainForm.cs(129,61): error CS1061: 'DragEventArgs' does not contain a definition for 'DataGetPresent' and no accessible extension method 'DataGetPresent' accepting a first argument of type 'DragEventArgs' could be found(are you missing a using directive or an assembly reference?)
+    C:\Users\bradm\StlCleanerWinForms\MainForm.cs(208,17): warning CS8602: Dereference of a possibly null reference.
+
+Build failed with 1 error(s) and 1 warning(s) in 1.3s
+
+C:\Users\bradm\StlCleanerWinForms>

@@ -1,0 +1,33 @@
+================================================
+   Shortcuts to Bookmarks Extractor
+   Organized by Folder Structure
+================================================
+
+Search Path: C:\Users\bradm\Desktop
+Output File: ShortcutsBookmarks.html
+
+Search subdirectories recursively? (Y/N) [Y]: n
+
+Extracting shortcuts organized by folder... Please wait.
+
+Extracting URLs from shortcuts in: C:\Users\bradm\Desktop
+Get-ChildItem : Cannot find path 'C:\Users\bradm\Desktop' because it does not exist.
+At C:\Users\bradm\OneDrive\Desktop\Robotics-Electronics\Extract-ShortcutsToBookmarks.ps1:27 char:13
++ $urlFiles = Get-ChildItem -Path $SearchPath -Filter "*.url" -File -Re ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\bradm\Desktop:String) [Get-ChildItem], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetChildItemCommand
+
+Found 0 shortcut files
+
+Bookmarks exported to: ShortcutsBookmarks.html
+Found 0 folders with total 0 shortcuts
+Folder structure preserved in bookmarks!
+
+Folder Summary:
+
+You can import this file into Chrome, Firefox, Edge, or other browsers
+
+Process completed
+
+Press any key to exit...
